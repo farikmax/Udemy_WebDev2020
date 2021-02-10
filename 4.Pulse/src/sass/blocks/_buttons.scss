@@ -7,6 +7,13 @@
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 3px 3px 15px $main-color;
+        text-shadow: 5px 5px 25px $white;
+        font-weight: 700;
+        border: none;
+    }
     &_main {
         margin-top: 67px;
         width: 300px;
@@ -18,5 +25,10 @@
         height: 55px;
         color: $white;
         font-size: 16px;
+    }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
     }
 }
