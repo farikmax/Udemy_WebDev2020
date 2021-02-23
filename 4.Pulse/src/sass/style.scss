@@ -1,6 +1,14 @@
+//libs
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+@import 'libs/animate';
+//base
 @import 'base/common';
 @import 'base/vars';
 @import 'base/mixins';
+@import 'base/animations';
+//blocks
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -12,3 +20,5 @@
 @import 'blocks/catalog';
 @import 'blocks/feed';
 @import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
