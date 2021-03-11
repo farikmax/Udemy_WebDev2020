@@ -1,0 +1,9 @@
+.contacts {
+  &__list {
+    font-size: $size-15;
+    &--link {
+      font-size: $size-13;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+//fonts
+$main-font: "Open Sans", sans-serif;
+$secondary-font: "Roboto", sans-serif;
+
+//colors
+$white: #ffffff; //++
+$light-white: #f7f7f7; //++
+$black: #000000;
+$light-black: #333333;
+$orange: #cd6326; //++
+$light-orange: #e39128; //++
+$grey: #cccccc;
+$light-grey: #666666;
+$press-btn: #8f5613; // ++
+
+//px_to_rem
+$base-size: 14px;
+@function px_to_rem($target, $context: $base-size) {
+  @if $target == 0 {
+    @return 0;
+  }
+  @return $target / $context + 0rem;
+}
+
+$size-11: px_to_rem(11px);
+$size-12: px_to_rem(12px);
+$size-13: px_to_rem(13px);
+$size-15: px_to_rem(15px);
+$size-16: px_to_rem(16px);
+$size-17: px_to_rem(17px); //+++
+$size-18: px_to_rem(18px);
+$size-19: px_to_rem(19px);
+$size-20: px_to_rem(20px);
+$size-21: px_to_rem(21px);
+$size-22: px_to_rem(22px);
+$size-23: px_to_rem(23px); //+++
+$size-24: px_to_rem(24px); //+++
+$size-25: px_to_rem(25px);
+$size-26: px_to_rem(26px);
+$size-27: px_to_rem(27px); //+++
+$size-28: px_to_rem(28px);
+$size-29: px_to_rem(29px);
+$size-30: px_to_rem(30px);
+$size-32: px_to_rem(32px); //+++
+$size-48: px_to_rem(48px); //+++
+$size-60: px_to_rem(60px); //+++
+$size-78: px_to_rem(78px); //+++
+
+//container-box
+$containerBox: 1440px;
+$contentBox: 1200px;

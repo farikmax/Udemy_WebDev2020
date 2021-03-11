@@ -1,0 +1,9 @@
+// start style firstpage;
+.firstpage {
+  &__container {
+    min-height: 779px;
+    background: url("../images/header-bg.jpg") center center/cover no-repeat;
+    padding: 20px 0 215px 0;
+  }
+}
+// end style firstpage;

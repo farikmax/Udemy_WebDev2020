@@ -1,0 +1,43 @@
+//FONTS
+$main-font: "Museo Sans Cyrl", sans-serif;
+
+//COLORS
+$white: #ffffff;
+$black: #000000;
+$violet: #8f66b9;
+$orange: #ca7f2f;
+$grey: #e5e5e5;
+$darkblue: rgb(45, 45, 216);
+$blue: blue;
+
+//PX_TO_REM
+$base-size: 14px;
+@function px_to_rem($target, $context: $base-size) {
+  @if $target == 0 {
+    @return 0;
+  }
+  @return $target / $context + 0rem;
+}
+
+$size-11: px_to_rem(11px);
+$size-12: px_to_rem(12px);
+$size-13: px_to_rem(13px);
+$size-15: px_to_rem(15px);
+$size-16: px_to_rem(16px);
+$size-17: px_to_rem(17px);
+$size-19: px_to_rem(19px);
+$size-20: px_to_rem(20px);
+$size-21: px_to_rem(21px);
+$size-22: px_to_rem(22px);
+$size-23: px_to_rem(23px);
+$size-24: px_to_rem(24px);
+$size-25: px_to_rem(25px);
+$size-26: px_to_rem(26px);
+$size-27: px_to_rem(27px);
+$size-28: px_to_rem(28px);
+$size-29: px_to_rem(29px);
+$size-30: px_to_rem(30px);
+$size-36: px_to_rem(36px);
+
+//Container-box
+$container-width: 1140px;

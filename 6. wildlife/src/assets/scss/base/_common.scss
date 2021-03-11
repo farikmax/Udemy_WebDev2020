@@ -1,0 +1,71 @@
+// start style common;
+* {
+  font-family: $main-font;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  user-select: none;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: $containerBox;
+  margin: 0 auto;
+}
+
+.content {
+  max-width: $contentBox;
+  margin: 0 auto;
+}
+
+.wildlife__logo {
+  display: inline-flex;
+  align-items: center;
+  font-family: $secondary-font;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: $light-white;
+  transition: 0.6s all;
+  &:hover {
+    color: $orange;
+    svg path {
+      fill: $orange;
+    }
+  }
+  &--svg {
+    fill: $light-white;
+    margin-right: 15px;
+  }
+}
+
+.wildlife__btn {
+  display: inline-flex;
+  background-color: $orange;
+  border-radius: 5px;
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: $size-23;
+  color: $light-white;
+  border: 2px solid $orange;
+  padding: 12px 23px;
+  transition: 0.6s all;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    border: 2px solid $light-orange;
+    background-color: $light-orange;
+  }
+  &:active {
+    background-color: $press-btn;
+    color: $light-white;
+  }
+}
+// end style common;

@@ -1,0 +1,30 @@
+// start style latest;
+.latest {
+  &__container {
+    background-color: $grey;
+    padding: 130px 0 230px 0;
+  }
+  &__content {
+    position: relative;
+    svg path {
+      transition: 0.6s all;
+    }
+  }
+  &__title {
+    font-size: 50.5px;
+    transform: translateX(-0.04%);
+    letter-spacing: 0.05px;
+    text-align: center;
+    color: $light-black;
+    margin-bottom: 28px;
+  }
+  &__subtitle {
+    font-size: 25px;
+    transform: translateX(-0.2%);
+    letter-spacing: 0.25px;
+    text-align: center;
+    color: $light-grey;
+    margin-bottom: 109px;
+  }
+}
+// end style latest;

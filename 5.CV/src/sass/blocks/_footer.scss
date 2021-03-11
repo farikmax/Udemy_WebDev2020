@@ -1,0 +1,12 @@
+.footer {
+  .container-footer {
+    padding: 15px 0;
+  }
+  .rsschool-link {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 100%;
+    @include padding-hack(9%, $object-fit: contain);
+  }
+}

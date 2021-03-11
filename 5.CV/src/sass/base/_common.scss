@@ -1,0 +1,35 @@
+* {
+  font-family: $main-font;
+}
+
+.container {
+  position: relative;
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: $violet;
+    cursor: pointer;
+  }
+}
+
+.container__line {
+  margin: 0;
+  margin: 40px 0 40px 0;
+  &--end {
+    margin-bottom: 0;
+  }
+}
+
+.section-title {
+  display: inline-block;
+  font-size: $size-19;
+  font-weight: 700;
+  background-color: $grey;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,21 @@
+//fonts
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../fonts/OpenSans-Regular.eot");
+  src: url("../../fonts/OpenSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../fonts/OpenSans-Regular.woff") format("woff"),
+    url("../../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/Roboto-Regular.eot");
+  src: url("../../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/Roboto-Regular.woff") format("woff"),
+    url("../../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
