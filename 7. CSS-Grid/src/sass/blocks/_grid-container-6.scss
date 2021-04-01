@@ -1,0 +1,32 @@
+// Выравнивание треков
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 300px));
+  grid-template-rows: repeat(3, minmax(100px, auto));
+  grid-auto-rows: minmax(100px, auto);
+  gap: 10px;
+  // align-items: center;
+  // justify-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+  // place-content: justify-content + align-content
+  place-content: space-around space-around;
+  // place-items: justify-items + align-items;
+  place-items: center center;
+}
+.grid-elem {
+  background-color: rgba(1, 1, 96, 1);
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  font-size: 26px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+#first {
+  // place-self: justify-self + align-self;
+  place-self: center end;
+  // align-self: start;
+  // justify-self: start;
+}

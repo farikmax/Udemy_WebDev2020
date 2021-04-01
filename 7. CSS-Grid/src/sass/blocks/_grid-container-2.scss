@@ -1,0 +1,19 @@
+// Единица гибкости (fr) и repeat()
+.grid-container {
+  display: grid;
+  width: 600px;
+  height: 600px;
+  // grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.grid-elem {
+  // height: 50px;
+  background-color: rgba(1, 1, 96, 1);
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  font-size: 26px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
