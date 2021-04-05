@@ -1,0 +1,91 @@
+.resume {
+  padding-top: 120px;
+  &__title {
+    position: relative;
+    text-align: center;
+    @include before_circle;
+    &:before {
+      top: -4px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__subtitle {
+    text-align: center;
+  }
+
+  &__wrapper {
+    padding: 60px 65px 0 65px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 135px;
+  }
+
+  &__column {
+    &--title {
+      position: relative;
+      padding: 0 0 0 35px;
+      &:before {
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background-color: $main-color;
+        border-radius: 50%;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    &--menu {
+      list-style-type: none;
+    }
+    &--list {
+      position: relative;
+      &:after {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: calc(100% + 16px);
+        top: -10px;
+        left: 7px;
+        background-color: $black;
+      }
+    }
+    &--item {
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 38px;
+        top: 65px;
+        left: 7px;
+        background-color: $black;
+      }
+    }
+    &--head {
+      position: relative;
+      padding: 45px 0 0 110px;
+    }
+    &--body {
+      padding: 0 0 0 45px;
+      margin-top: 25px;
+      font-size: $s12;
+    }
+    &--icon {
+      position: absolute;
+      top: 58px;
+      left: 70px;
+      @include before_circle;
+      &:before {
+        top: -11px;
+        left: -25px;
+      }
+    }
+    &--location {
+      font-size: $s12;
+    }
+  }
+}
