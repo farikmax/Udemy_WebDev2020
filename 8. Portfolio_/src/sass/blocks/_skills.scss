@@ -1,22 +1,10 @@
 .skills {
   padding-top: 120px;
-  &__title {
-    position: relative;
-    text-align: center;
-    @include before_circle;
-    &:before {
-      top: -6px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-  &__subtitle {
-    text-align: center;
-  }
   &__items {
     margin-top: 60px;
     padding: 0 10px;
     display: grid;
+    justify-content: center;
     grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px);
     grid-auto-rows: minmax(270px, auto);
     gap: 13px;
@@ -43,6 +31,7 @@
   &__ratings {
     margin-top: 120px;
     display: grid;
+    justify-content: center;
     grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 350px);
     column-gap: 45px;
     row-gap: 35px;
