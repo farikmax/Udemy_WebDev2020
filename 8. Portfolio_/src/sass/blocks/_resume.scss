@@ -1,11 +1,12 @@
 .resume {
   padding-top: 120px;
   &__wrapper {
-    padding: 60px 65px 0 65px;
+    padding: 60px 100px 0 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 135px;
   }
+
   &__column {
     &--title {
       position: relative;
